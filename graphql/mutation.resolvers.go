@@ -27,9 +27,6 @@ func (r *mutationResolver) UploadFile(ctx context.Context, input model.UploadInp
 	}
 
 	filePath := path.Join(fileDirName, input.Data.Filename)
-	if _, err := os.Create(filePath); err != nil {
-		return nil, err
-	}
 	if err := os.WriteFile(filePath, file, filePerm); err != nil {
 		return nil, err
 	}

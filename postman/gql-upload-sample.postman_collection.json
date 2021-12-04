@@ -25,9 +25,9 @@
 						},
 						{
 							"key": "0",
-							"contentType": "image/png",
+							"contentType": "",
 							"type": "file",
-							"src": "/Users/shinsakuyagi/Downloads/gemo-kihon-bg-none.png"
+							"src": "/Users/shinsakuyagi/src/gql-upload-sample/file/sample.png"
 						}
 					],
 					"options": {
