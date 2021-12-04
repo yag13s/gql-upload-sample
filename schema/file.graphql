@@ -1,0 +1,19 @@
+"""
+upload mutation input
+"""
+input UploadInput {
+  """
+  upload file data
+  """
+  data: Upload!
+}
+
+"""
+upload mutation output
+"""
+type UploadPayload {
+  """
+  uploaded file path
+  """
+  path: String!
+}

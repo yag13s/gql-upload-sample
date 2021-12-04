@@ -1,0 +1,6 @@
+type Mutation {
+  """
+  upload one file
+  """
+  uploadFile(input: UploadInput!): UploadPayload!
+}
