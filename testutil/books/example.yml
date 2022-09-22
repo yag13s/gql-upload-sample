@@ -17,4 +17,6 @@ steps:
                               version
                           }
                       }"
-    test: current.res.status == 200 && current.res.body == vars.queryExampleResponse
+    test: |
+      current.res.status == 200
+      && current.res.body == vars.queryExampleResponse
