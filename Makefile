@@ -29,3 +29,8 @@ bootstrap-golangci:
 lint:
 	@if [ ! -e bin/golangci-lint ]; then $(MAKE) bootstrap-golangci ; fi
 	bin/golangci-lint run ./...
+
+.PHONY: test
+test:
+	CGO_ENABLED=0 go test -cover -coverprofile=./coverage.out ./... -count=1
+	go tool cover -func=coverage.out | grep "total:"

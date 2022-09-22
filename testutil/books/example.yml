@@ -1,0 +1,20 @@
+desc: test example
+vars:
+  queryExampleResponse: "json://response/example.json"
+debug: true
+steps:
+  exapmle:
+    desc: example query
+    req:
+      /query:
+        post:
+          body:
+            application/json:
+              query: "query {
+                          example {
+                              envcode
+                              projectName
+                              version
+                          }
+                      }"
+    test: current.res.status == 200 && current.res.body == vars.queryExampleResponse

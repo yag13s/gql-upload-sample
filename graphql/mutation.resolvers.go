@@ -14,6 +14,7 @@ import (
 	"github.com/ShinsakuYagi/gql-upload-sample/model"
 )
 
+// UploadFile is the resolver for the uploadFile field.
 func (r *mutationResolver) UploadFile(ctx context.Context, input model.UploadInput) (*model.UploadPayload, error) {
 	const (
 		fileDirName string      = "file"

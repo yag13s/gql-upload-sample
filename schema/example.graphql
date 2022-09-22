@@ -1,0 +1,17 @@
+"""
+example response
+"""
+type Example {
+  """
+  name of project
+  """
+  projectName: String!
+  """
+  environment code
+  """
+  envcode: String!
+  """
+  API version
+  """
+  version: String!
+}

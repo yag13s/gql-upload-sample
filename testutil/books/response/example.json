@@ -1,0 +1,9 @@
+{
+    "data": {
+        "example": {
+            "envcode": "test",
+            "projectName": "gql-upload-sample",
+            "version": "testing"
+        }
+    }
+}

@@ -6,6 +6,16 @@ import (
 	"github.com/99designs/gqlgen/graphql"
 )
 
+// example response
+type Example struct {
+	// name of project
+	ProjectName string `json:"projectName"`
+	// environment code
+	Envcode string `json:"envcode"`
+	// API version
+	Version string `json:"version"`
+}
+
 // upload mutation input
 type UploadInput struct {
 	// upload file data

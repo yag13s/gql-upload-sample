@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "4b86775e-6954-4c88-8159-2ac034396986",
+		"_postman_id": "0d70553c-80d5-4a93-8e8b-a237745f6754",
 		"name": "gql-upload-sample",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6173900"
 	},
 	"item": [
 		{
@@ -29,11 +30,31 @@
 							"type": "file",
 							"src": "/Users/shinsakuyagi/src/gql-upload-sample/file/sample.png"
 						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/query",
+					"host": [
+						"localhost"
 					],
-					"options": {
-						"raw": {
-							"language": "text"
-						}
+					"port": "8080",
+					"path": [
+						"query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "query example",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "query {\n    example {\n        envcode\n        projectName\n        version\n    }\n}\n",
+						"variables": ""
 					}
 				},
 				"url": {

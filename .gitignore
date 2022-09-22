@@ -1,5 +1,6 @@
 bin/
 node_modules/
-# --- Mac Finder --- #
+*.out
 
+# --- Mac Finder --- #
 .DS_Store

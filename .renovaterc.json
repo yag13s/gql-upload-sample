@@ -1,0 +1,11 @@
+{
+  "minor": {
+    "groupName": "all dependencies"
+  },
+  "extends": [
+    "config:base"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
+  ]
+}
