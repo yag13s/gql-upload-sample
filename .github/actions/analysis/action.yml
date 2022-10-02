@@ -1,0 +1,17 @@
+name: "Analysis"
+description: "lint"
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-go@v3
+      with:
+        go-version-file: 'go.mod'
+
+    - name: Lint
+      run: make lint
+      shell: bash
+
+    - name: Test
+      run: make test
+      shell: bash

@@ -25,6 +25,11 @@ generate-graphql:
 bootstrap-golangci:
 	curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s
 
+.PHONY: clean
+clean:
+	rm -rf bin
+	go clean -testcache
+
 .PHONY: lint
 lint:
 	@if [ ! -e bin/golangci-lint ]; then $(MAKE) bootstrap-golangci ; fi
