@@ -36,6 +36,10 @@ linters-settings:
     threshold: 50
   gocyclo:
     min-complexity: 30
+  govet:
+    enable-all: true
+    disable:
+      - shadow
 
 issues:
   exclude-use-default: false

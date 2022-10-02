@@ -1,0 +1,17 @@
+name: Analysis
+env:
+  TZ: 'Asia/Tokyo'
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  analysis:
+    name: Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Analysis
+        uses: ./.github/actions/analysis
