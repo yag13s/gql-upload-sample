@@ -6,7 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.17.20
 	github.com/gin-gonic/gin v1.8.1
 	github.com/joho/godotenv v1.4.0
-	github.com/k1LoW/runn v0.37.3
+	github.com/k1LoW/runn v0.37.4
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
@@ -30,7 +30,7 @@ require (
 	github.com/goccy/go-json v0.9.10 // indirect
 	github.com/goccy/go-yaml v1.9.5 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect
@@ -39,7 +39,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/k1LoW/duration v1.2.0 // indirect
 	github.com/k1LoW/exec v0.2.0 // indirect
-	github.com/k1LoW/expand v0.4.0 // indirect
+	github.com/k1LoW/expand v0.5.2 // indirect
 	github.com/k1LoW/stopw v0.7.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/lestrrat-go/backoff/v2 v2.0.8 // indirect
