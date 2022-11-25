@@ -6,13 +6,14 @@ require (
 	github.com/99designs/gqlgen v0.17.20
 	github.com/gin-gonic/gin v1.8.1
 	github.com/joho/godotenv v1.4.0
-	github.com/k1LoW/runn v0.49.1
+	github.com/k1LoW/runn v0.50.0
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
 require (
 	github.com/Songmu/axslogparser v1.4.0 // indirect
 	github.com/Songmu/go-ltsv v0.1.0 // indirect
+	github.com/Songmu/prompter v0.5.1 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
@@ -51,7 +52,7 @@ require (
 	github.com/k1LoW/curlreq v0.3.2 // indirect
 	github.com/k1LoW/duration v1.2.0 // indirect
 	github.com/k1LoW/exec v0.2.0 // indirect
-	github.com/k1LoW/expand v0.5.4 // indirect
+	github.com/k1LoW/expand v0.5.5 // indirect
 	github.com/k1LoW/grpcurlreq v0.1.0 // indirect
 	github.com/k1LoW/stopw v0.7.1 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
@@ -86,6 +87,7 @@ require (
 	golang.org/x/net v0.1.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/term v0.1.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/tools v0.2.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
