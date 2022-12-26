@@ -6,7 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.17.22
 	github.com/gin-gonic/gin v1.8.2
 	github.com/joho/godotenv v1.4.0
-	github.com/k1LoW/runn v0.53.3
+	github.com/k1LoW/runn v0.54.4
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
@@ -45,6 +45,8 @@ require (
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-github/v45 v45.2.0 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect
@@ -55,9 +57,12 @@ require (
 	github.com/k1LoW/duration v1.2.0 // indirect
 	github.com/k1LoW/exec v0.2.0 // indirect
 	github.com/k1LoW/expand v0.5.5 // indirect
+	github.com/k1LoW/ghfs v0.7.0 // indirect
+	github.com/k1LoW/go-github-client/v45 v45.2.3 // indirect
 	github.com/k1LoW/grpcurlreq v0.1.0 // indirect
 	github.com/k1LoW/sshc/v3 v3.0.1 // indirect
 	github.com/k1LoW/stopw v0.7.1 // indirect
+	github.com/k1LoW/urlfilepath v0.1.0 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/lestrrat-go/backoff/v2 v2.0.8 // indirect
@@ -67,7 +72,9 @@ require (
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mattn/go-shellwords v1.0.12 // indirect
+	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
