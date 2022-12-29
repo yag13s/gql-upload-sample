@@ -6,7 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.17.22
 	github.com/gin-gonic/gin v1.8.2
 	github.com/joho/godotenv v1.4.0
-	github.com/k1LoW/runn v0.54.4
+	github.com/k1LoW/runn v0.54.5
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
