@@ -6,7 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.17.24
 	github.com/gin-gonic/gin v1.9.0
 	github.com/joho/godotenv v1.5.1
-	github.com/k1LoW/runn v0.60.1
+	github.com/k1LoW/runn v0.64.1
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
@@ -17,7 +17,7 @@ require (
 	github.com/Songmu/prompter v0.5.1 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/ajg/form v1.5.1 // indirect
-	github.com/antonmedv/expr v1.12.0 // indirect
+	github.com/antonmedv/expr v1.12.1 // indirect
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.0 // indirect
 	github.com/buildkite/interpolate v0.0.0-20200526001904-07f35b4ae251 // indirect
@@ -44,7 +44,7 @@ require (
 	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/gobwas/ws v1.1.0 // indirect
 	github.com/goccy/go-json v0.10.0 // indirect
-	github.com/goccy/go-yaml v1.9.8 // indirect
+	github.com/goccy/go-yaml v1.10.0 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
@@ -58,10 +58,11 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/juliangruber/go-intersect v1.1.0 // indirect
+	github.com/k1LoW/concgroup v1.0.0 // indirect
 	github.com/k1LoW/curlreq v0.3.2 // indirect
 	github.com/k1LoW/duration v1.2.0 // indirect
 	github.com/k1LoW/exec v0.2.0 // indirect
-	github.com/k1LoW/expand v0.5.6 // indirect
+	github.com/k1LoW/expand v0.7.0 // indirect
 	github.com/k1LoW/ghfs v1.0.1 // indirect
 	github.com/k1LoW/go-github-client/v50 v50.0.6 // indirect
 	github.com/k1LoW/grpcurlreq v0.1.0 // indirect
