@@ -6,7 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.17.31
 	github.com/gin-gonic/gin v1.9.0
 	github.com/joho/godotenv v1.5.1
-	github.com/k1LoW/runn v0.72.0
+	github.com/k1LoW/runn v0.74.0
 	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
@@ -28,6 +28,7 @@ require (
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.0 // indirect
 	github.com/bradleyfalzon/ghinstallation/v2 v2.4.0 // indirect
+	github.com/brianvoe/gofakeit/v6 v6.21.0 // indirect
 	github.com/bufbuild/protocompile v0.5.1 // indirect
 	github.com/buildkite/interpolate v0.0.0-20200526001904-07f35b4ae251 // indirect
 	github.com/bytedance/sonic v1.8.0 // indirect
