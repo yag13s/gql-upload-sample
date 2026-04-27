@@ -1,13 +1,13 @@
 module github.com/ShinsakuYagi/gql-upload-sample
 
-go 1.19
+go 1.22
 
 require (
 	github.com/99designs/gqlgen v0.17.31
 	github.com/gin-gonic/gin v1.9.0
 	github.com/joho/godotenv v1.5.1
 	github.com/k1LoW/runn v0.74.0
-	github.com/vektah/gqlparser/v2 v2.5.1
+	github.com/vektah/gqlparser/v2 v2.5.33
 )
 
 require (
@@ -22,7 +22,7 @@ require (
 	github.com/Songmu/axslogparser v1.4.0 // indirect
 	github.com/Songmu/go-ltsv v0.1.0 // indirect
 	github.com/Songmu/prompter v0.5.1 // indirect
-	github.com/agnivade/levenshtein v1.1.1 // indirect
+	github.com/agnivade/levenshtein v1.2.1 // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/antonmedv/expr v1.12.5 // indirect
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de // indirect
